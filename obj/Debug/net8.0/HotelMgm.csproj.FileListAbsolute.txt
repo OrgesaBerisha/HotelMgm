@@ -1,0 +1,6 @@
+C:\Users\Orgesa\source\repos\HotelMgm\obj\Debug\net8.0\HotelMgm.csproj.AssemblyReference.cache
+C:\Users\Orgesa\source\repos\HotelMgm\obj\Debug\net8.0\HotelMgm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Orgesa\source\repos\HotelMgm\obj\Debug\net8.0\HotelMgm.AssemblyInfoInputs.cache
+C:\Users\Orgesa\source\repos\HotelMgm\obj\Debug\net8.0\HotelMgm.AssemblyInfo.cs
+C:\Users\Orgesa\source\repos\HotelMgm\obj\Debug\net8.0\HotelMgm.csproj.CoreCompileInputs.cache
+C:\Users\Orgesa\source\repos\HotelMgm\obj\Debug\net8.0\HotelMgm.sourcelink.json
