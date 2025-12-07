@@ -20,8 +20,15 @@ namespace HotelMgm.Models
         public string LastName { get; set; }
 
         [Required]
+        [MaxLength(30)]
+        public string Username { get; set; }
+
+        [Required]
         [EmailAddress]
         public string Email { get; set; }
+
+        [NotMapped]
+        public string Password { get; set; }
 
         [Required]
         public byte[] PasswordHash { get; set; }
