@@ -14,7 +14,7 @@ namespace HotelMgm.Models
         public string RoleType { get; set; }
 
         public ICollection<User> Users { get; set; }
-
+        //Testimiii
 
     }
 }
