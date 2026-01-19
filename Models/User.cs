@@ -39,6 +39,7 @@ namespace HotelMgm.Models
         // Relationship
         public int RoleID { get; set; }
         public Role Role { get; set; }
+        public Manager Manager { get; set; }
 
         // Refresh tokens
         public string? RefreshToken { get; set; }
