@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\H\\source\\repos\\HotelMgm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\interface\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\interface\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\dto\\userreservationresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\userreservationresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\dto\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\dto\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 84,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-19T13:14:26.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T13:06:23.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Service\\UserService.cs",
+              "RelativeToolTip": "Service\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T13:01:45.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DataContext.cs",
+              "RelativeToolTip": "Data\\DataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T12:56:55.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserServices.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\Interface\\IUserServices.cs",
+              "RelativeDocumentMoniker": "Data\\Interface\\IUserServices.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\Interface\\IUserServices.cs",
+              "RelativeToolTip": "Data\\Interface\\IUserServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T12:55:46.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserReservationResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\UserReservationResponseDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\UserReservationResponseDTO.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\UserReservationResponseDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\UserReservationResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T12:55:03.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRegistrationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\UserRegistrationDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\UserRegistrationDTO.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\UserRegistrationDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\UserRegistrationDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T12:54:33.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserLoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\UserLoginDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\UserLoginDTO.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\UserLoginDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\UserLoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T12:53:59.794Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
