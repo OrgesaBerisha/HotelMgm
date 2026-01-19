@@ -421,3 +421,6 @@ C:\Users\H\source\repos\HotelMgm\obj\Debug\net8.0\refint\HotelMgm.dll
 C:\Users\H\source\repos\HotelMgm\obj\Debug\net8.0\HotelMgm.pdb
 C:\Users\H\source\repos\HotelMgm\obj\Debug\net8.0\HotelMgm.genruntimeconfig.cache
 C:\Users\H\source\repos\HotelMgm\obj\Debug\net8.0\ref\HotelMgm.dll
+C:\Users\H\source\repos\HotelMgm\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\H\source\repos\HotelMgm\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\H\source\repos\HotelMgm\bin\Debug\net8.0\Newtonsoft.Json.dll
