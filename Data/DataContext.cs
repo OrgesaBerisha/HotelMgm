@@ -16,8 +16,14 @@ namespace HotelMgm.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)  //lidhjet bohen qetu one to many
         {
-           // base.OnModelCreating(modelBuilder) 
-           
+            // base.OnModelCreating(modelBuilder) 
+            // User ↔ Role
+            modelBuilder.Entity<User>()
+                .HasOne(u => u.Role)
+                .WithMany(r => r.Users)
+                .HasForeignKey(u => u.RoleID)
+                .OnDelete(DeleteBehavior.Cascade);
+
         }
     }
 }

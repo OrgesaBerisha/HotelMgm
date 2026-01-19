@@ -7,6 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Data\Interfaces\**" />
+    <Compile Remove="Services\**" />
+    <Content Remove="Data\Interfaces\**" />
+    <Content Remove="Services\**" />
+    <EmbeddedResource Remove="Data\Interfaces\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <None Remove="Data\Interfaces\**" />
+    <None Remove="Services\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -17,11 +28,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Data\Interfaces\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>

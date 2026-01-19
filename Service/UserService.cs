@@ -1,0 +1,140 @@
+﻿using HotelMgm.Data;
+using HotelMgm.Data.DTO;
+using HotelMgm.Data.Interface;
+using HotelMgm.Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace HotelMgm.Service
+{
+    public class UserService : IUserServices
+    {
+        private readonly DataContext _dbContext;
+
+        public UserService(DataContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
+
+        public async Task<User> GetUser(int id)
+        {
+            try
+            {
+                var result = _dbContext.Users.Find(id);
+                return result;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                throw new Exception("An error occurred.");
+            }
+        }
+
+        public async Task<IEnumerable<UserDTO>> GetAll()
+        {
+            try
+            {
+                var result = await _dbContext.Users
+                    .Include(u => u.Role)
+                    .Select(u => new UserDTO
+                    {
+                        FirstName = u.FirstName,
+                        LastName = u.LastName,
+                        Email = u.Email,
+                        Phone = u.Phone,
+                        Address = u.Address,
+                        CreatedAt = u.CreatedAt,
+                        RoleType = u.Role.RoleType,
+                        UserID = u.UserID
+                    })
+                    .ToListAsync();
+
+                return result;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                throw new Exception("An error occurred while fetching users.");
+            }
+        }
+
+        public async Task<User> UpdateUser(int id, UserDTO request)
+        {
+            try
+            {
+                var user = _dbContext.Users.Find(id);
+
+                if (user == null)
+                {
+                    return null;
+                }
+
+                if (user != null)
+                {
+                    user.FirstName = request.FirstName;
+                    user.LastName = request.LastName;
+                    user.Email = request.Email;
+                    user.Phone = request.Phone;
+                    user.Address = request.Address;
+
+
+                    _dbContext.SaveChanges();
+                }
+                return user;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                throw new Exception("An error ocurred while attempting to save the user record.");
+            }
+        }
+
+        public async Task DeleteUser(int id)
+        {
+            try
+            {
+                var result = _dbContext.Users.Find(id);
+                if (result != null)
+                {
+                    _dbContext.Users.Remove(result);
+                    _dbContext.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                throw new Exception("An error ocurred while attempting to save the user record.");
+
+            }
+        }
+        public async Task<IEnumerable<UserDTO>> GetAllCustomers()
+        {
+            try
+            {
+                var customers = await _dbContext.Users
+                    .Include(u => u.Role)
+                    .Where(u => u.Role.RoleType == "Customer")
+                    .Select(u => new UserDTO
+                    {
+                        FirstName = u.FirstName,
+                        LastName = u.LastName,
+                        Email = u.Email,
+                        Phone = u.Phone,
+                        Address = u.Address,
+                        CreatedAt = u.CreatedAt,
+                        RoleType = u.Role.RoleType,
+                        UserID = u.UserID
+                    })
+                    .ToListAsync();
+
+                return customers;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                throw new Exception("An error occurred while fetching customers.");
+            }
+        }
+
+
+    }
+}
