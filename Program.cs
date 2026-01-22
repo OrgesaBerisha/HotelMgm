@@ -75,7 +75,8 @@ builder.Services.AddControllers()
 
 
 builder.Services.AddScoped<IUserServices, UserService>();
-
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IManagerService, ManagerService>();
 
 
 // Add services to the container.

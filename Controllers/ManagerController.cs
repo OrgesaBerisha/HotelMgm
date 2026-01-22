@@ -3,11 +3,12 @@ using HotelMgm.Data.Interface;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
+
 namespace HotelMgm.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ManagerController
+    public class ManagerController : ControllerBase
     {
         private readonly IManagerService _service;
 
