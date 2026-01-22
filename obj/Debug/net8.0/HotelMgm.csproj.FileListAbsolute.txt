@@ -414,7 +414,6 @@ C:\Users\H\source\repos\HotelMgm\obj\Debug\net8.0\staticwebassets.build.json.cac
 C:\Users\H\source\repos\HotelMgm\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\H\source\repos\HotelMgm\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\H\source\repos\HotelMgm\obj\Debug\net8.0\swae.build.ex.cache
-C:\Users\H\source\repos\HotelMgm\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\H\source\repos\HotelMgm\obj\Debug\net8.0\HotelMgm.csproj.Up2Date
 C:\Users\H\source\repos\HotelMgm\obj\Debug\net8.0\HotelMgm.dll
 C:\Users\H\source\repos\HotelMgm\obj\Debug\net8.0\refint\HotelMgm.dll
@@ -427,3 +426,5 @@ C:\Users\H\source\repos\HotelMgm\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\Admin\source\repos\HotelMgm\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Admin\source\repos\HotelMgm\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Admin\source\repos\HotelMgm\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\H\source\repos\HotelMgm\bin\Debug\net8.0\Mapster.dll
+C:\Users\H\source\repos\HotelMgm\bin\Debug\net8.0\Mapster.Core.dll
