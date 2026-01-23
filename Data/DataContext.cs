@@ -24,6 +24,7 @@ namespace HotelMgm.Data
         public DbSet<RoomStatus> RoomStatuses { get; set; }
         public DbSet<RoomImage> RoomImages { get; set; }
         public DbSet<RoomRecepsionist> RoomRecepsionists { get; set; }
+        public DbSet<ReservationStatus> ReservationStatuses { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)  //lidhjet bohen qetu one to many
         {
@@ -35,12 +36,17 @@ namespace HotelMgm.Data
                 .HasForeignKey(u => u.RoleID)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            //Manager ↔ User
             modelBuilder.Entity<User>()
-          .HasOne(u => u.Manager)
-          .WithOne(m => m.User)
-          .HasForeignKey<Manager>(m => m.UserID)
-          .OnDelete(DeleteBehavior.Restrict);
+                .HasOne(u => u.RoomRecepsionist)
+                .WithOne(rr => rr.User)
+                .HasForeignKey<RoomRecepsionist>(rr => rr.UserID)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<User>()
+                .HasOne(u => u.Manager)
+                .WithOne(m => m.User)
+                .HasForeignKey<Manager>(m => m.UserID)
+                .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<Manager>()
                 .HasOne(m => m.ManagerType)
@@ -54,6 +60,134 @@ namespace HotelMgm.Data
                 .IsRequired()
                 .HasMaxLength(50);
 
+            // RoomReservation ↔ User
+            modelBuilder.Entity<RoomReservation>()
+                .HasOne(rr => rr.User)
+                .WithMany(u => u.RoomReservations)
+                .HasForeignKey(rr => rr.UserID)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Room ↔ RoomType
+            modelBuilder.Entity<Room>()
+                .HasOne(r => r.RoomType)
+                .WithMany(rt => rt.Rooms)
+                .HasForeignKey(r => r.RoomTypeID)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<RoomType>()
+               .Property(rt => rt.Price)
+               .HasColumnType("decimal(18,2)");
+
+            // RoomReservation ↔ Room
+            modelBuilder.Entity<RoomReservation>()
+                .HasOne(rr => rr.Room)
+                .WithMany(r => r.Reservations)
+                .HasForeignKey(rr => rr.RoomID)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Room ↔ RoomStatus
+            modelBuilder.Entity<Room>()
+                .HasOne(r => r.RoomStatus)
+                .WithMany(rs => rs.Rooms)
+                .HasForeignKey(r => r.RoomStatusID)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<RoomImage>()
+                .HasOne(ri => ri.RoomType)
+                .WithMany(r => r.RoomImages)
+                .HasForeignKey(ri => ri.RoomTypeID)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // RoomReservation ↔ ReservationStatus
+            modelBuilder.Entity<RoomReservation>()
+                .HasOne(rr => rr.ReservationStatus)
+                .WithMany(rs => rs.RoomReservations)
+                .HasForeignKey(rr => rr.ReservationStatusID)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            //// CleaningStaff ↔ User
+            //modelBuilder.Entity<CleaningStaff>()
+            //    .HasOne(cs => cs.User)
+            //    .WithMany()
+            //    .HasForeignKey(cs => cs.UserID)
+            //    .OnDelete(DeleteBehavior.Restrict);
+
+            //modelBuilder.Entity<CleaningStaff>()
+            //    .HasIndex(cs => cs.UserID)
+            //    .IsUnique();
+
+            //modelBuilder.Entity<CleaningStaff>()
+            //    .HasOne(cs => cs.AssignedBy)
+            //    .WithMany()
+            //    .HasForeignKey(cs => cs.AssignedByUserID)
+            //    .OnDelete(DeleteBehavior.Restrict);
+
+            //// CleaningAssignment ↔ CleaningStaff
+            //modelBuilder.Entity<CleaningAssignment>()
+            //    .HasOne(ca => ca.CleaningStaff)
+            //    .WithMany(cs => cs.CleaningAssignments)
+            //    .HasForeignKey(ca => ca.CleaningStaffID)
+            //    .OnDelete(DeleteBehavior.Cascade);
+
+            //modelBuilder.Entity<CleaningAssignment>()
+            //    .HasOne(ca => ca.Room)
+            //    .WithMany()
+            //    .HasForeignKey(ca => ca.RoomID)
+            //    .OnDelete(DeleteBehavior.Restrict);
+
+            //modelBuilder.Entity<CleaningAssignment>()
+            //    .HasOne(ca => ca.AssignedBy)
+            //    .WithMany()
+            //    .HasForeignKey(ca => ca.AssignedByUserID)
+            //    .OnDelete(DeleteBehavior.Restrict);
+
+            //modelBuilder.Entity<CleaningStaff>()
+            //    .Property(cs => cs.Shift)
+            //    .HasConversion<string>();
+
+            ////SERVICES
+            //// HotelServiceReservation ↔ HotelServiceDetail (many-to-one)
+            //modelBuilder.Entity<HotelServiceReservation>()
+            //    .HasOne(r => r.HotelServiceDetail)
+            //    .WithMany()
+            //    .HasForeignKey(r => r.HotelServiceDetailID)
+            //    .OnDelete(DeleteBehavior.Restrict);
+
+            //// HotelServiceReservation ↔ ServiceReservationStatus (many-to-one, optional)
+            //modelBuilder.Entity<HotelServiceReservation>()
+            //    .HasOne(r => r.ReservationStatus)
+            //    .WithMany()
+            //    .HasForeignKey(r => r.ReservationStatusID)
+            //    .OnDelete(DeleteBehavior.Restrict);
+
+            //// HotelServiceReservation ↔ ServiceRecepsionist (many-to-one, optional)
+            //modelBuilder.Entity<HotelServiceReservation>()
+            //    .HasOne(r => r.ServiceRecepsionist)
+            //    .WithMany(s => s.Reservations)
+            //    .HasForeignKey(r => r.ServiceRecepsionistId)
+            //    .OnDelete(DeleteBehavior.SetNull);
+
+
+
+
+            //// Restaurant
+            //modelBuilder.Entity<MenuItem>()
+            //    .HasOne(mi => mi.MenuCategory)
+            //    .WithMany(mc => mc.MenuItems)
+            //    .HasForeignKey(mi => mi.MenuCategoryID)
+            //    .OnDelete(DeleteBehavior.Cascade);
+
+            //modelBuilder.Entity<RestaurantReservation>()
+            //    .HasOne(rr => rr.RestaurantTable)
+            //    .WithMany(rt => rt.Reservations)
+            //    .HasForeignKey(rr => rr.RestaurantTableID)
+            //    .OnDelete(DeleteBehavior.Restrict);
+
+            //modelBuilder.Entity<RestaurantReservation>()
+            //    .HasOne(rr => rr.User)
+            //    .WithMany()
+            //    .HasForeignKey(rr => rr.UserID)
+            //    .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

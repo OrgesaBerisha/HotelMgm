@@ -1,125 +1,233 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\",
+  "WorkspaceRootPath": "C:\\Users\\H\\source\\repos\\HotelMgm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\migrations\\20260123145601_review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:migrations\\20260123145601_review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\controllers\\reviewscontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:controllers\\reviewscontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\controllers\\reviewcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:controllers\\reviewcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\data\\dto\\reviewwithimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\reviewwithimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\interface\\ireservationstatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\interface\\ireservationstatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\models\\reviewimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\reviewimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\dto\\reservationstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\reservationstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\models\\reviewcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\reviewcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\models\\reservationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\reservationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\service\\managerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:service\\managerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\models\\roomreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\roomreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\migrations\\20260119160128_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:migrations\\20260119160128_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\data\\interface\\imanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\interface\\iroomstatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\interface\\iroomstatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\interface\\iroomtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\interface\\iroomtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\interface\\iroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\interface\\iroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\interface\\iroomreservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\interface\\iroomreservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\interface\\iroomrecepsionistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\interface\\iroomrecepsionistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\interface\\iroomimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\interface\\iroomimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\dto\\bulkroomcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\bulkroomcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\dto\\roomreservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\roomreservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\dto\\roomreservationcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\roomreservationcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\dto\\roomrecepsionistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\roomrecepsionistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\dto\\roomimageuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\roomimageuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\dto\\roomimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\roomimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\dto\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\dto\\roomdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\roomdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\dto\\roomavailabilitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\roomavailabilitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\dto\\reviewwithimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\reviewwithimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\dto\\roomtypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\roomtypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\dto\\roomstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\roomstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\dto\\roomreservationupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\roomreservationupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\models\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\models\\roomstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\roomstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\models\\roomrecepsionist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\roomrecepsionist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\models\\roomimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\roomimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\migrations\\20260123145601_review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:migrations\\20260123145601_review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\controllers\\reviewscontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:controllers\\reviewscontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\controllers\\reviewcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:controllers\\reviewcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\models\\reviewimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\reviewimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\models\\reviewcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\reviewcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\service\\managerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:service\\managerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\migrations\\20260119160128_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:migrations\\20260119160128_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\interface\\imanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\interface\\imanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\data\\dto\\managertypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\dto\\managertypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\managertypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\data\\dto\\managerreplydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\dto\\managerreplydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\managerreplydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\data\\dto\\managerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\dto\\managerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\managerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\models\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\models\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\models\\managertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\models\\managertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\managertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\hotelmgm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\hotelmgm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:hotelmgm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\hotelmgm.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\hotelmgm.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:hotelmgm.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\data\\interface\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\interface\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\interface\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\data\\dto\\userreservationresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\dto\\userreservationresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\userreservationresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\data\\dto\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\dto\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\data\\dto\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\h\\source\\repos\\hotelmgm\\data\\dto\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -130,15 +238,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 84,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Bookmark",
@@ -146,122 +250,84 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20260123145601_Review.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Migrations\\20260123145601_Review.cs",
-              "RelativeDocumentMoniker": "Migrations\\20260123145601_Review.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Migrations\\20260123145601_Review.cs",
-              "RelativeToolTip": "Migrations\\20260123145601_Review.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T14:56:01.825Z",
-              "EditorCaption": ""
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ReviewsController .cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Controllers\\ReviewsController .cs",
-              "RelativeDocumentMoniker": "Controllers\\ReviewsController .cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Controllers\\ReviewsController .cs",
-              "RelativeToolTip": "Controllers\\ReviewsController .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Title": "IReservationStatusService.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\Interface\\IReservationStatusService.cs",
+              "RelativeDocumentMoniker": "Data\\Interface\\IReservationStatusService.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\Interface\\IReservationStatusService.cs",
+              "RelativeToolTip": "Data\\Interface\\IReservationStatusService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T14:50:40.963Z",
+              "WhenOpened": "2026-01-23T16:09:07.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReviewCategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Controllers\\ReviewCategoriesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ReviewCategoriesController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Controllers\\ReviewCategoriesController.cs",
-              "RelativeToolTip": "Controllers\\ReviewCategoriesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T14:44:13.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "Data\\DataContext.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DataContext.cs",
               "RelativeToolTip": "Data\\DataContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBIAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAzwBcAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-19T12:56:55.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ReviewWithImageDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DTO\\ReviewWithImageDTO.cs",
-              "RelativeDocumentMoniker": "Data\\DTO\\ReviewWithImageDTO.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DTO\\ReviewWithImageDTO.cs",
-              "RelativeToolTip": "Data\\DTO\\ReviewWithImageDTO.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAcAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ReservationStatusDTO.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\ReservationStatusDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\ReservationStatusDTO.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\ReservationStatusDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\ReservationStatusDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T14:42:40.257Z",
+              "WhenOpened": "2026-01-23T16:09:39.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ReviewImage.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Models\\ReviewImage.cs",
-              "RelativeDocumentMoniker": "Models\\ReviewImage.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Models\\ReviewImage.cs",
-              "RelativeToolTip": "Models\\ReviewImage.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ReservationStatus.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\ReservationStatus.cs",
+              "RelativeDocumentMoniker": "Models\\ReservationStatus.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\ReservationStatus.cs",
+              "RelativeToolTip": "Models\\ReservationStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T14:41:12.796Z",
+              "WhenOpened": "2026-01-23T16:08:17.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ReviewCategory.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Models\\ReviewCategory.cs",
-              "RelativeDocumentMoniker": "Models\\ReviewCategory.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Models\\ReviewCategory.cs",
-              "RelativeToolTip": "Models\\ReviewCategory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCkAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T14:38:18.409Z",
+              "WhenOpened": "2026-01-19T15:58:16.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Review.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Models\\Review.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\Review.cs",
               "RelativeDocumentMoniker": "Models\\Review.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\Review.cs",
               "RelativeToolTip": "Models\\Review.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAswB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -270,289 +336,645 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ManagerController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Controllers\\ManagerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ManagerController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Controllers\\ManagerController.cs",
-              "RelativeToolTip": "Controllers\\ManagerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "RoomReservation.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\RoomReservation.cs",
+              "RelativeDocumentMoniker": "Models\\RoomReservation.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\RoomReservation.cs",
+              "RelativeToolTip": "Models\\RoomReservation.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswB0AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T16:07:02.102Z",
+              "WhenOpened": "2026-01-23T15:17:52.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRoomStatusService.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\Interface\\IRoomStatusService.cs",
+              "RelativeDocumentMoniker": "Data\\Interface\\IRoomStatusService.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\Interface\\IRoomStatusService.cs",
+              "RelativeToolTip": "Data\\Interface\\IRoomStatusService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T15:50:45.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRoomTypeService.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\Interface\\IRoomTypeService.cs",
+              "RelativeDocumentMoniker": "Data\\Interface\\IRoomTypeService.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\Interface\\IRoomTypeService.cs",
+              "RelativeToolTip": "Data\\Interface\\IRoomTypeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T15:51:18.963Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ManagerService.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Service\\ManagerService.cs",
-              "RelativeDocumentMoniker": "Service\\ManagerService.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Service\\ManagerService.cs",
-              "RelativeToolTip": "Service\\ManagerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Title": "IRoomService.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\Interface\\IRoomService.cs",
+              "RelativeDocumentMoniker": "Data\\Interface\\IRoomService.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\Interface\\IRoomService.cs",
+              "RelativeToolTip": "Data\\Interface\\IRoomService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T16:05:10.522Z",
+              "WhenOpened": "2026-01-23T15:50:19.56Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "20260119160128_Manager.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Migrations\\20260119160128_Manager.cs",
-              "RelativeDocumentMoniker": "Migrations\\20260119160128_Manager.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Migrations\\20260119160128_Manager.cs",
-              "RelativeToolTip": "Migrations\\20260119160128_Manager.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Title": "IRoomReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\Interface\\IRoomReservationService.cs",
+              "RelativeDocumentMoniker": "Data\\Interface\\IRoomReservationService.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\Interface\\IRoomReservationService.cs",
+              "RelativeToolTip": "Data\\Interface\\IRoomReservationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T16:01:29.277Z",
+              "WhenOpened": "2026-01-23T15:49:52.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCkAAAAsAAAAAAAAAA==",
+              "Title": "IRoomRecepsionistService.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\Interface\\IRoomRecepsionistService.cs",
+              "RelativeDocumentMoniker": "Data\\Interface\\IRoomRecepsionistService.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\Interface\\IRoomRecepsionistService.cs",
+              "RelativeToolTip": "Data\\Interface\\IRoomRecepsionistService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T15:58:16.428Z",
+              "WhenOpened": "2026-01-23T15:49:06.59Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "IManagerService.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\Interface\\IManagerService.cs",
-              "RelativeDocumentMoniker": "Data\\Interface\\IManagerService.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\Interface\\IManagerService.cs",
-              "RelativeToolTip": "Data\\Interface\\IManagerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Title": "IRoomImageService.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\Interface\\IRoomImageService.cs",
+              "RelativeDocumentMoniker": "Data\\Interface\\IRoomImageService.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\Interface\\IRoomImageService.cs",
+              "RelativeToolTip": "Data\\Interface\\IRoomImageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T15:53:56.518Z",
+              "WhenOpened": "2026-01-23T15:48:23.627Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "ManagerTypeDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DTO\\ManagerTypeDTO.cs",
-              "RelativeDocumentMoniker": "Data\\DTO\\ManagerTypeDTO.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DTO\\ManagerTypeDTO.cs",
-              "RelativeToolTip": "Data\\DTO\\ManagerTypeDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Title": "BulkRoomCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\BulkRoomCreateDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\BulkRoomCreateDTO.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\BulkRoomCreateDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\BulkRoomCreateDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T15:52:40.412Z",
+              "WhenOpened": "2026-01-23T15:52:41.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "ManagerReplyDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DTO\\ManagerReplyDTO.cs",
-              "RelativeDocumentMoniker": "Data\\DTO\\ManagerReplyDTO.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DTO\\ManagerReplyDTO.cs",
-              "RelativeToolTip": "Data\\DTO\\ManagerReplyDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "Title": "RoomReservationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\RoomReservationDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\RoomReservationDTO.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\RoomReservationDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\RoomReservationDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T15:52:20.344Z",
+              "WhenOpened": "2026-01-23T15:39:06.666Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "ManagerDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DTO\\ManagerDTO.cs",
-              "RelativeDocumentMoniker": "Data\\DTO\\ManagerDTO.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DTO\\ManagerDTO.cs",
-              "RelativeToolTip": "Data\\DTO\\ManagerDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Title": "RoomReservationCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\RoomReservationCreateDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\RoomReservationCreateDTO.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\RoomReservationCreateDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\RoomReservationCreateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T15:51:59.499Z",
+              "WhenOpened": "2026-01-23T15:38:43.566Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Manager.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Models\\Manager.cs",
-              "RelativeDocumentMoniker": "Models\\Manager.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Models\\Manager.cs",
-              "RelativeToolTip": "Models\\Manager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Title": "RoomRecepsionistDTO.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\RoomRecepsionistDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\RoomRecepsionistDTO.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\RoomRecepsionistDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\RoomRecepsionistDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T15:50:33.566Z",
+              "WhenOpened": "2026-01-23T15:38:23.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "ManagerType.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Models\\ManagerType.cs",
-              "RelativeDocumentMoniker": "Models\\ManagerType.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Models\\ManagerType.cs",
-              "RelativeToolTip": "Models\\ManagerType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "RoomImageUploadDTO.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\RoomImageUploadDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\RoomImageUploadDTO.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\RoomImageUploadDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\RoomImageUploadDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T15:51:14.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAIBZwAoAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T13:32:00.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Seed.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Seed.cs",
-              "RelativeDocumentMoniker": "Seed.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Seed.cs",
-              "RelativeToolTip": "Seed.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T13:31:52.72Z",
+              "WhenOpened": "2026-01-23T15:37:58.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-19T13:14:26.151Z",
+              "Title": "RoomImageDTO.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\RoomImageDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\RoomImageDTO.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\RoomImageDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\RoomImageDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T15:37:33.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RoomDTO.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\RoomDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\RoomDTO.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\RoomDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\RoomDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T15:37:06.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RoomDetailsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\RoomDetailsDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\RoomDetailsDTO.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\RoomDetailsDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\RoomDetailsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T15:36:40.882Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "HotelMgm.csproj",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\HotelMgm.csproj",
-              "RelativeDocumentMoniker": "HotelMgm.csproj",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\HotelMgm.csproj",
-              "RelativeToolTip": "HotelMgm.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-19T15:12:57.587Z",
+              "Title": "RoomAvailabilityDTO.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\RoomAvailabilityDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\RoomAvailabilityDTO.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\RoomAvailabilityDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\RoomAvailabilityDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T15:36:13.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "HotelMgm.http",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\HotelMgm.http",
-              "RelativeDocumentMoniker": "HotelMgm.http",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\HotelMgm.http",
-              "RelativeToolTip": "HotelMgm.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-01-19T15:02:59.178Z",
+              "Title": "ReviewWithImageDTO.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\ReviewWithImageDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\ReviewWithImageDTO.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\ReviewWithImageDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\ReviewWithImageDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T14:42:40.257Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-19T15:02:35.133Z",
+              "Title": "RoomTypeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\RoomTypeDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\RoomTypeDTO.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\RoomTypeDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\RoomTypeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T15:40:10.707Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Title": "RoomStatusDTO.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\RoomStatusDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\RoomStatusDTO.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\RoomStatusDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\RoomStatusDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T13:06:23.957Z",
+              "WhenOpened": "2026-01-23T15:39:52.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Service\\UserService.cs",
-              "RelativeDocumentMoniker": "Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Service\\UserService.cs",
-              "RelativeToolTip": "Service\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcAAAAJAAAAAAAAAA==",
+              "Title": "RoomReservationUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\RoomReservationUpdateDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\RoomReservationUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\RoomReservationUpdateDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\RoomReservationUpdateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T13:01:45.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IUserServices.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\Interface\\IUserServices.cs",
-              "RelativeDocumentMoniker": "Data\\Interface\\IUserServices.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\Interface\\IUserServices.cs",
-              "RelativeToolTip": "Data\\Interface\\IUserServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T12:55:46.379Z",
+              "WhenOpened": "2026-01-23T15:39:29.649Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "UserReservationResponseDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DTO\\UserReservationResponseDTO.cs",
-              "RelativeDocumentMoniker": "Data\\DTO\\UserReservationResponseDTO.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DTO\\UserReservationResponseDTO.cs",
-              "RelativeToolTip": "Data\\DTO\\UserReservationResponseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Title": "RoomStatus.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\RoomStatus.cs",
+              "RelativeDocumentMoniker": "Models\\RoomStatus.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\RoomStatus.cs",
+              "RelativeToolTip": "Models\\RoomStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T12:55:03.835Z",
+              "WhenOpened": "2026-01-23T15:18:54.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RoomType.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\RoomType.cs",
+              "RelativeDocumentMoniker": "Models\\RoomType.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\RoomType.cs",
+              "RelativeToolTip": "Models\\RoomType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T15:27:02.155Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "UserRegistrationDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DTO\\UserRegistrationDTO.cs",
-              "RelativeDocumentMoniker": "Data\\DTO\\UserRegistrationDTO.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DTO\\UserRegistrationDTO.cs",
-              "RelativeToolTip": "Data\\DTO\\UserRegistrationDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "RoomRecepsionist.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\RoomRecepsionist.cs",
+              "RelativeDocumentMoniker": "Models\\RoomRecepsionist.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\RoomRecepsionist.cs",
+              "RelativeToolTip": "Models\\RoomRecepsionist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T12:54:33.549Z",
+              "WhenOpened": "2026-01-23T15:17:06.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
+              "Title": "RoomImage.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\RoomImage.cs",
+              "RelativeDocumentMoniker": "Models\\RoomImage.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\RoomImage.cs",
+              "RelativeToolTip": "Models\\RoomImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T15:16:41.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "Models\\Room.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\Room.cs",
+              "RelativeToolTip": "Models\\Room.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T15:15:41.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20260123145601_Review.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Migrations\\20260123145601_Review.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260123145601_Review.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Migrations\\20260123145601_Review.cs",
+              "RelativeToolTip": "Migrations\\20260123145601_Review.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T14:56:01.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ReviewsController .cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Controllers\\ReviewsController .cs",
+              "RelativeDocumentMoniker": "Controllers\\ReviewsController .cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Controllers\\ReviewsController .cs",
+              "RelativeToolTip": "Controllers\\ReviewsController .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T14:50:40.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ReviewCategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Controllers\\ReviewCategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReviewCategoriesController.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Controllers\\ReviewCategoriesController.cs",
+              "RelativeToolTip": "Controllers\\ReviewCategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T14:44:13.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ReviewImage.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\ReviewImage.cs",
+              "RelativeDocumentMoniker": "Models\\ReviewImage.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\ReviewImage.cs",
+              "RelativeToolTip": "Models\\ReviewImage.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T14:41:12.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ReviewCategory.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\ReviewCategory.cs",
+              "RelativeDocumentMoniker": "Models\\ReviewCategory.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\ReviewCategory.cs",
+              "RelativeToolTip": "Models\\ReviewCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T14:38:18.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ManagerController.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Controllers\\ManagerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ManagerController.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Controllers\\ManagerController.cs",
+              "RelativeToolTip": "Controllers\\ManagerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T16:07:02.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ManagerService.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Service\\ManagerService.cs",
+              "RelativeDocumentMoniker": "Service\\ManagerService.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Service\\ManagerService.cs",
+              "RelativeToolTip": "Service\\ManagerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T16:05:10.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20260119160128_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Migrations\\20260119160128_Manager.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260119160128_Manager.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Migrations\\20260119160128_Manager.cs",
+              "RelativeToolTip": "Migrations\\20260119160128_Manager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T16:01:29.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IManagerService.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\Interface\\IManagerService.cs",
+              "RelativeDocumentMoniker": "Data\\Interface\\IManagerService.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\Interface\\IManagerService.cs",
+              "RelativeToolTip": "Data\\Interface\\IManagerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T15:53:56.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ManagerTypeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\ManagerTypeDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\ManagerTypeDTO.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\ManagerTypeDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\ManagerTypeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T15:52:40.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ManagerReplyDTO.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\ManagerReplyDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\ManagerReplyDTO.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\ManagerReplyDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\ManagerReplyDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T15:52:20.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ManagerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\ManagerDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\ManagerDTO.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\ManagerDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\ManagerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T15:51:59.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\Manager.cs",
+              "RelativeDocumentMoniker": "Models\\Manager.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\Manager.cs",
+              "RelativeToolTip": "Models\\Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T15:50:33.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ManagerType.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\ManagerType.cs",
+              "RelativeDocumentMoniker": "Models\\ManagerType.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Models\\ManagerType.cs",
+              "RelativeToolTip": "Models\\ManagerType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T15:51:14.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAIBZwAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T13:32:00.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Seed.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Seed.cs",
+              "RelativeDocumentMoniker": "Seed.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Seed.cs",
+              "RelativeToolTip": "Seed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T13:31:52.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-19T13:14:26.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "HotelMgm.csproj",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\HotelMgm.csproj",
+              "RelativeDocumentMoniker": "HotelMgm.csproj",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\HotelMgm.csproj",
+              "RelativeToolTip": "HotelMgm.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-19T15:12:57.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "HotelMgm.http",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\HotelMgm.http",
+              "RelativeDocumentMoniker": "HotelMgm.http",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\HotelMgm.http",
+              "RelativeToolTip": "HotelMgm.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-01-19T15:02:59.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-19T15:02:35.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T13:06:23.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Service\\UserService.cs",
+              "RelativeToolTip": "Service\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T13:01:45.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IUserServices.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\Interface\\IUserServices.cs",
+              "RelativeDocumentMoniker": "Data\\Interface\\IUserServices.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\Interface\\IUserServices.cs",
+              "RelativeToolTip": "Data\\Interface\\IUserServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T12:55:46.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "UserReservationResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\UserReservationResponseDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\UserReservationResponseDTO.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\UserReservationResponseDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\UserReservationResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T12:55:03.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "UserRegistrationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\UserRegistrationDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\UserRegistrationDTO.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\UserRegistrationDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\UserRegistrationDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T12:54:33.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
               "Title": "UserLoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DTO\\UserLoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\UserLoginDTO.cs",
               "RelativeDocumentMoniker": "Data\\DTO\\UserLoginDTO.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DTO\\UserLoginDTO.cs",
+              "ToolTip": "C:\\Users\\H\\source\\repos\\HotelMgm\\Data\\DTO\\UserLoginDTO.cs",
               "RelativeToolTip": "Data\\DTO\\UserLoginDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T12:53:59.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T12:53:59.794Z"
             }
           ]
         }

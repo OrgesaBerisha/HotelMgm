@@ -14,7 +14,6 @@ namespace HotelMgm.Models
         [Required]
         [MaxLength(30)]
         public string FirstName { get; set; }
-
         [Required]
         [MaxLength(30)]
         public string LastName { get; set; }
@@ -22,26 +21,23 @@ namespace HotelMgm.Models
         [Required]
         [EmailAddress]
         public string Email { get; set; }
-
         [Required]
-        public byte[] PasswordHash { get; set; }
+        [MinLength(6)]
+        public byte[]? PasswordHash { get; set; }
 
         [Required]
         public byte[] PasswordSalt { get; set; }
 
-        [RegularExpression(@"^\d{9}$", ErrorMessage = "Phone number must be exactly 9 digits.")]
+        [RegularExpression(@"^\+?\d{7,15}$", ErrorMessage = "Phone number must be 7 to 15 digits and can start with +")]
         public string? Phone { get; set; }
 
         public string? Address { get; set; }
-
         public DateTime CreatedAt { get; set; } = DateTime.Now;
-
-        // Relationship
         public int RoleID { get; set; }
         public Role Role { get; set; }
+        public RoomRecepsionist RoomRecepsionist { get; set; }
         public Manager Manager { get; set; }
-
-        // Refresh tokens
+        public ICollection<RoomReservation> RoomReservations { get; set; }
         public string? RefreshToken { get; set; }
         public DateTime? RefreshTokenExpiry { get; set; }
     }

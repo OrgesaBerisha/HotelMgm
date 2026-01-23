@@ -573,3 +573,4 @@ C:\Users\Lenovo\source\repos\HotelMgm\obj\Debug\net8.0\refint\HotelMgm.dll
 C:\Users\Lenovo\source\repos\HotelMgm\obj\Debug\net8.0\HotelMgm.pdb
 C:\Users\Lenovo\source\repos\HotelMgm\obj\Debug\net8.0\HotelMgm.genruntimeconfig.cache
 C:\Users\Lenovo\source\repos\HotelMgm\obj\Debug\net8.0\ref\HotelMgm.dll
+C:\Users\H\source\repos\HotelMgm\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
