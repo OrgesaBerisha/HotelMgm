@@ -15,6 +15,9 @@ namespace HotelMgm.Data
         public DbSet<Role> Roles { get; set; }
         public DbSet<Manager> Managers { get; set; }
         public DbSet<ManagerType> ManagerTypes { get; set; }
+        public DbSet<Review> Reviews { get; set; }
+        public DbSet<ReviewCategory> ReviewCategories { get; set; }
+        public DbSet<ReviewImage> ReviewImages { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)  //lidhjet bohen qetu one to many
         {
