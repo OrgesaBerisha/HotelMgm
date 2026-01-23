@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\migrations\\20260123145601_review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:migrations\\20260123145601_review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\controllers\\reviewscontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:controllers\\reviewscontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\controllers\\reviewcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:controllers\\reviewcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\data\\dto\\reviewwithimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\reviewwithimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\models\\reviewimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\reviewimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\models\\reviewcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\reviewcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\migrations\\20260119160128_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:migrations\\20260119160128_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\lenovo\\source\\repos\\hotelmgm\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 84,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -129,8 +157,120 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20260123145601_Review.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Migrations\\20260123145601_Review.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260123145601_Review.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Migrations\\20260123145601_Review.cs",
+              "RelativeToolTip": "Migrations\\20260123145601_Review.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T14:56:01.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReviewsController .cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Controllers\\ReviewsController .cs",
+              "RelativeDocumentMoniker": "Controllers\\ReviewsController .cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Controllers\\ReviewsController .cs",
+              "RelativeToolTip": "Controllers\\ReviewsController .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T14:50:40.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReviewCategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Controllers\\ReviewCategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReviewCategoriesController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Controllers\\ReviewCategoriesController.cs",
+              "RelativeToolTip": "Controllers\\ReviewCategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T14:44:13.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DataContext.cs",
+              "RelativeToolTip": "Data\\DataContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T12:56:55.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReviewWithImageDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DTO\\ReviewWithImageDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\ReviewWithImageDTO.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DTO\\ReviewWithImageDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\ReviewWithImageDTO.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T14:42:40.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReviewImage.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Models\\ReviewImage.cs",
+              "RelativeDocumentMoniker": "Models\\ReviewImage.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Models\\ReviewImage.cs",
+              "RelativeToolTip": "Models\\ReviewImage.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T14:41:12.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReviewCategory.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Models\\ReviewCategory.cs",
+              "RelativeDocumentMoniker": "Models\\ReviewCategory.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Models\\ReviewCategory.cs",
+              "RelativeToolTip": "Models\\ReviewCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T14:38:18.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "Models\\Review.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Models\\Review.cs",
+              "RelativeToolTip": "Models\\Review.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T14:37:02.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ManagerController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Controllers\\ManagerController.cs",
               "RelativeDocumentMoniker": "Controllers\\ManagerController.cs",
@@ -143,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "ManagerService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Service\\ManagerService.cs",
               "RelativeDocumentMoniker": "Service\\ManagerService.cs",
@@ -151,11 +291,12 @@
               "RelativeToolTip": "Service\\ManagerService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T16:05:10.522Z"
+              "WhenOpened": "2026-01-19T16:05:10.522Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "20260119160128_Manager.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Migrations\\20260119160128_Manager.cs",
               "RelativeDocumentMoniker": "Migrations\\20260119160128_Manager.cs",
@@ -163,11 +304,12 @@
               "RelativeToolTip": "Migrations\\20260119160128_Manager.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T16:01:29.277Z"
+              "WhenOpened": "2026-01-19T16:01:29.277Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -175,11 +317,12 @@
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAowCkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T15:58:16.428Z"
+              "WhenOpened": "2026-01-19T15:58:16.428Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "IManagerService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\Interface\\IManagerService.cs",
               "RelativeDocumentMoniker": "Data\\Interface\\IManagerService.cs",
@@ -187,23 +330,12 @@
               "RelativeToolTip": "Data\\Interface\\IManagerService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T15:53:56.518Z"
+              "WhenOpened": "2026-01-19T15:53:56.518Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "Data\\DataContext.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DataContext.cs",
-              "RelativeToolTip": "Data\\DataContext.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowC0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T12:56:55.555Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "ManagerTypeDTO.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DTO\\ManagerTypeDTO.cs",
               "RelativeDocumentMoniker": "Data\\DTO\\ManagerTypeDTO.cs",
@@ -211,11 +343,12 @@
               "RelativeToolTip": "Data\\DTO\\ManagerTypeDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T15:52:40.412Z"
+              "WhenOpened": "2026-01-19T15:52:40.412Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "ManagerReplyDTO.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DTO\\ManagerReplyDTO.cs",
               "RelativeDocumentMoniker": "Data\\DTO\\ManagerReplyDTO.cs",
@@ -223,11 +356,12 @@
               "RelativeToolTip": "Data\\DTO\\ManagerReplyDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T15:52:20.344Z"
+              "WhenOpened": "2026-01-19T15:52:20.344Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "ManagerDTO.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DTO\\ManagerDTO.cs",
               "RelativeDocumentMoniker": "Data\\DTO\\ManagerDTO.cs",
@@ -235,11 +369,12 @@
               "RelativeToolTip": "Data\\DTO\\ManagerDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T15:51:59.499Z"
+              "WhenOpened": "2026-01-19T15:51:59.499Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "Manager.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Models\\Manager.cs",
               "RelativeDocumentMoniker": "Models\\Manager.cs",
@@ -247,11 +382,12 @@
               "RelativeToolTip": "Models\\Manager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T15:50:33.566Z"
+              "WhenOpened": "2026-01-19T15:50:33.566Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "ManagerType.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Models\\ManagerType.cs",
               "RelativeDocumentMoniker": "Models\\ManagerType.cs",
@@ -259,23 +395,25 @@
               "RelativeToolTip": "Models\\ManagerType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T15:51:14.222Z"
+              "WhenOpened": "2026-01-19T15:51:14.222Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAIBJwAoAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAIBZwAoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T13:32:00.707Z"
+              "WhenOpened": "2026-01-19T13:32:00.707Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "Seed.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Seed.cs",
               "RelativeDocumentMoniker": "Seed.cs",
@@ -283,11 +421,12 @@
               "RelativeToolTip": "Seed.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T13:31:52.72Z"
+              "WhenOpened": "2026-01-19T13:31:52.72Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -295,11 +434,12 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-19T13:14:26.151Z"
+              "WhenOpened": "2026-01-19T13:14:26.151Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "HotelMgm.csproj",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\HotelMgm.csproj",
               "RelativeDocumentMoniker": "HotelMgm.csproj",
@@ -307,11 +447,12 @@
               "RelativeToolTip": "HotelMgm.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-19T15:12:57.587Z"
+              "WhenOpened": "2026-01-19T15:12:57.587Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "HotelMgm.http",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\HotelMgm.http",
               "RelativeDocumentMoniker": "HotelMgm.http",
@@ -319,23 +460,25 @@
               "RelativeToolTip": "HotelMgm.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-01-19T15:02:59.178Z"
+              "WhenOpened": "2026-01-19T15:02:59.178Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAwAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-19T15:02:35.133Z"
+              "WhenOpened": "2026-01-19T15:02:35.133Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
@@ -343,11 +486,12 @@
               "RelativeToolTip": "Controllers\\UserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T13:06:23.957Z"
+              "WhenOpened": "2026-01-19T13:06:23.957Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "Service\\UserService.cs",
@@ -355,11 +499,12 @@
               "RelativeToolTip": "Service\\UserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T13:01:45.758Z"
+              "WhenOpened": "2026-01-19T13:01:45.758Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "IUserServices.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\Interface\\IUserServices.cs",
               "RelativeDocumentMoniker": "Data\\Interface\\IUserServices.cs",
@@ -367,11 +512,12 @@
               "RelativeToolTip": "Data\\Interface\\IUserServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T12:55:46.379Z"
+              "WhenOpened": "2026-01-19T12:55:46.379Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "UserReservationResponseDTO.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DTO\\UserReservationResponseDTO.cs",
               "RelativeDocumentMoniker": "Data\\DTO\\UserReservationResponseDTO.cs",
@@ -379,11 +525,12 @@
               "RelativeToolTip": "Data\\DTO\\UserReservationResponseDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T12:55:03.835Z"
+              "WhenOpened": "2026-01-19T12:55:03.835Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "UserRegistrationDTO.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DTO\\UserRegistrationDTO.cs",
               "RelativeDocumentMoniker": "Data\\DTO\\UserRegistrationDTO.cs",
@@ -391,11 +538,12 @@
               "RelativeToolTip": "Data\\DTO\\UserRegistrationDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T12:54:33.549Z"
+              "WhenOpened": "2026-01-19T12:54:33.549Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 29,
               "Title": "UserLoginDTO.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HotelMgm\\Data\\DTO\\UserLoginDTO.cs",
               "RelativeDocumentMoniker": "Data\\DTO\\UserLoginDTO.cs",
@@ -403,15 +551,8 @@
               "RelativeToolTip": "Data\\DTO\\UserLoginDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T12:53:59.794Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+              "WhenOpened": "2026-01-19T12:53:59.794Z",
+              "EditorCaption": ""
             }
           ]
         }
