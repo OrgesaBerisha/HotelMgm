@@ -21,10 +21,18 @@ namespace HotelMgm.Data
         public DbSet<Room> Rooms { get; set; }
         public DbSet<RoomReservation> RoomReservations { get; set; }
         public DbSet<RoomType> RoomTypes { get; set; }
+        public DbSet<CleaningStaff> CleaningStaff { get; set; }
+        public DbSet<CleaningAssignment> CleaningAssignments { get; set; }
         public DbSet<RoomStatus> RoomStatuses { get; set; }
         public DbSet<RoomImage> RoomImages { get; set; }
         public DbSet<RoomRecepsionist> RoomRecepsionists { get; set; }
         public DbSet<ReservationStatus> ReservationStatuses { get; set; }
+        public DbSet<MenuCategory> MenuCategories { get; set; }
+        public DbSet<MenuItem> MenuItems { get; set; }
+        public DbSet<RestaurantTable> RestaurantTables { get; set; }
+        public DbSet<RestaurantReservation> RestaurantReservations { get; set; }
+        public DbSet<RestaurantGuest> RestaurantGuests { get; set; }
+        public DbSet<RestaurantSettings> RestaurantSettings { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)  //lidhjet bohen qetu one to many
         {
