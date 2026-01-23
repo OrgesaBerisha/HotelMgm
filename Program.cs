@@ -76,6 +76,8 @@ builder.Services.AddControllers()
 
 builder.Services.AddScoped<IUserServices, UserService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<ICleaningStaffService, CleaningStaffService>();
+builder.Services.AddScoped<ICleaningAssignmentService, CleaningAssignmentService>();
 builder.Services.AddScoped<IManagerService, ManagerService>();
 builder.Services.AddScoped<IRoomService, RoomService>();
 builder.Services.AddScoped<IRoomStatusService, RoomStatusService>();
@@ -84,6 +86,10 @@ builder.Services.AddScoped<IReservationStatusService, ReservationStatusService>(
 builder.Services.AddScoped<IRoomReservationService, RoomReservationService>();
 builder.Services.AddScoped<IRoomImageService, RoomImageService>();
 builder.Services.AddScoped<IRoomRecepsionistService, RoomRecepsionistService>();
+builder.Services.AddScoped<IMenuService, MenuService>();
+builder.Services.AddScoped<IRestaurantTableService, RestaurantTableService>();
+builder.Services.AddScoped<IHostManagementService, HostManagementService>();
+builder.Services.AddScoped<IHostService, HostService>();
 
 // Add services to the container.
 
