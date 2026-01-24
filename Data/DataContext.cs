@@ -13,24 +13,31 @@ namespace HotelMgm.Data
 
         public DbSet<User> Users { get; set; }
         public DbSet<Role> Roles { get; set; }
-        public DbSet<Manager> Managers { get; set; }
-        public DbSet<ManagerType> ManagerTypes { get; set; }
         public DbSet<Review> Reviews { get; set; }
         public DbSet<ReviewCategory> ReviewCategories { get; set; }
         public DbSet<ReviewImage> ReviewImages { get; set; }
+
         public DbSet<Room> Rooms { get; set; }
         public DbSet<RoomReservation> RoomReservations { get; set; }
         public DbSet<RoomType> RoomTypes { get; set; }
         public DbSet<CleaningStaff> CleaningStaff { get; set; }
         public DbSet<CleaningAssignment> CleaningAssignments { get; set; }
         public DbSet<RoomStatus> RoomStatuses { get; set; }
+        public DbSet<ReservationStatus> ReservationStatuses { get; set; }
+        public DbSet<HotelService> HotelServices { get; set; }
+        public DbSet<HotelServiceDetail> HotelServiceDetails { get; set; }
+        public DbSet<HotelServiceCards> HotelServiceCards { get; set; }
+        public DbSet<HotelServiceReservation> HotelServiceReservations { get; set; }
+        public DbSet<ServiceRecepsionist> ServiceRecepsionists { get; set; }
+        public DbSet<ServiceReservationStatus> ServiceReservastionStatuses { get; set; }
         public DbSet<RoomImage> RoomImages { get; set; }
         public DbSet<RoomRecepsionist> RoomRecepsionists { get; set; }
-        public DbSet<ReservationStatus> ReservationStatuses { get; set; }
         public DbSet<MenuCategory> MenuCategories { get; set; }
         public DbSet<MenuItem> MenuItems { get; set; }
         public DbSet<RestaurantTable> RestaurantTables { get; set; }
         public DbSet<RestaurantReservation> RestaurantReservations { get; set; }
+        public DbSet<Manager> Managers { get; set; }
+        public DbSet<ManagerType> ManagerTypes { get; set; }
         public DbSet<RestaurantGuest> RestaurantGuests { get; set; }
         public DbSet<RestaurantSettings> RestaurantSettings { get; set; }
 
@@ -113,89 +120,89 @@ namespace HotelMgm.Data
                 .HasForeignKey(rr => rr.ReservationStatusID)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            //// CleaningStaff ↔ User
-            //modelBuilder.Entity<CleaningStaff>()
-            //    .HasOne(cs => cs.User)
-            //    .WithMany()
-            //    .HasForeignKey(cs => cs.UserID)
-            //    .OnDelete(DeleteBehavior.Restrict);
+            // CleaningStaff ↔ User
+            modelBuilder.Entity<CleaningStaff>()
+                .HasOne(cs => cs.User)
+                .WithMany()
+                .HasForeignKey(cs => cs.UserID)
+                .OnDelete(DeleteBehavior.Restrict);
 
-            //modelBuilder.Entity<CleaningStaff>()
-            //    .HasIndex(cs => cs.UserID)
-            //    .IsUnique();
+            modelBuilder.Entity<CleaningStaff>()
+                .HasIndex(cs => cs.UserID)
+                .IsUnique();
 
-            //modelBuilder.Entity<CleaningStaff>()
-            //    .HasOne(cs => cs.AssignedBy)
-            //    .WithMany()
-            //    .HasForeignKey(cs => cs.AssignedByUserID)
-            //    .OnDelete(DeleteBehavior.Restrict);
+            modelBuilder.Entity<CleaningStaff>()
+                .HasOne(cs => cs.AssignedBy)
+                .WithMany()
+                .HasForeignKey(cs => cs.AssignedByUserID)
+                .OnDelete(DeleteBehavior.Restrict);
 
-            //// CleaningAssignment ↔ CleaningStaff
-            //modelBuilder.Entity<CleaningAssignment>()
-            //    .HasOne(ca => ca.CleaningStaff)
-            //    .WithMany(cs => cs.CleaningAssignments)
-            //    .HasForeignKey(ca => ca.CleaningStaffID)
-            //    .OnDelete(DeleteBehavior.Cascade);
+            // CleaningAssignment ↔ CleaningStaff
+            modelBuilder.Entity<CleaningAssignment>()
+                .HasOne(ca => ca.CleaningStaff)
+                .WithMany(cs => cs.CleaningAssignments)
+                .HasForeignKey(ca => ca.CleaningStaffID)
+                .OnDelete(DeleteBehavior.Cascade);
 
-            //modelBuilder.Entity<CleaningAssignment>()
-            //    .HasOne(ca => ca.Room)
-            //    .WithMany()
-            //    .HasForeignKey(ca => ca.RoomID)
-            //    .OnDelete(DeleteBehavior.Restrict);
+            modelBuilder.Entity<CleaningAssignment>()
+                .HasOne(ca => ca.Room)
+                .WithMany()
+                .HasForeignKey(ca => ca.RoomID)
+                .OnDelete(DeleteBehavior.Restrict);
 
-            //modelBuilder.Entity<CleaningAssignment>()
-            //    .HasOne(ca => ca.AssignedBy)
-            //    .WithMany()
-            //    .HasForeignKey(ca => ca.AssignedByUserID)
-            //    .OnDelete(DeleteBehavior.Restrict);
+            modelBuilder.Entity<CleaningAssignment>()
+                .HasOne(ca => ca.AssignedBy)
+                .WithMany()
+                .HasForeignKey(ca => ca.AssignedByUserID)
+                .OnDelete(DeleteBehavior.Restrict);
 
-            //modelBuilder.Entity<CleaningStaff>()
-            //    .Property(cs => cs.Shift)
-            //    .HasConversion<string>();
+            modelBuilder.Entity<CleaningStaff>()
+                .Property(cs => cs.Shift)
+                .HasConversion<string>();
 
-            ////SERVICES
-            //// HotelServiceReservation ↔ HotelServiceDetail (many-to-one)
-            //modelBuilder.Entity<HotelServiceReservation>()
-            //    .HasOne(r => r.HotelServiceDetail)
-            //    .WithMany()
-            //    .HasForeignKey(r => r.HotelServiceDetailID)
-            //    .OnDelete(DeleteBehavior.Restrict);
+            //SERVICES
+            // HotelServiceReservation ↔ HotelServiceDetail (many-to-one)
+            modelBuilder.Entity<HotelServiceReservation>()
+                .HasOne(r => r.HotelServiceDetail)
+                .WithMany()
+                .HasForeignKey(r => r.HotelServiceDetailID)
+                .OnDelete(DeleteBehavior.Restrict);
 
-            //// HotelServiceReservation ↔ ServiceReservationStatus (many-to-one, optional)
-            //modelBuilder.Entity<HotelServiceReservation>()
-            //    .HasOne(r => r.ReservationStatus)
-            //    .WithMany()
-            //    .HasForeignKey(r => r.ReservationStatusID)
-            //    .OnDelete(DeleteBehavior.Restrict);
+            // HotelServiceReservation ↔ ServiceReservationStatus (many-to-one, optional)
+            modelBuilder.Entity<HotelServiceReservation>()
+                .HasOne(r => r.ReservationStatus)
+                .WithMany()
+                .HasForeignKey(r => r.ReservationStatusID)
+                .OnDelete(DeleteBehavior.Restrict);
 
-            //// HotelServiceReservation ↔ ServiceRecepsionist (many-to-one, optional)
-            //modelBuilder.Entity<HotelServiceReservation>()
-            //    .HasOne(r => r.ServiceRecepsionist)
-            //    .WithMany(s => s.Reservations)
-            //    .HasForeignKey(r => r.ServiceRecepsionistId)
-            //    .OnDelete(DeleteBehavior.SetNull);
-
-
+            // HotelServiceReservation ↔ ServiceRecepsionist (many-to-one, optional)
+            modelBuilder.Entity<HotelServiceReservation>()
+                .HasOne(r => r.ServiceRecepsionist)
+                .WithMany(s => s.Reservations)
+                .HasForeignKey(r => r.ServiceRecepsionistId)
+                .OnDelete(DeleteBehavior.SetNull);
 
 
-            //// Restaurant
-            //modelBuilder.Entity<MenuItem>()
-            //    .HasOne(mi => mi.MenuCategory)
-            //    .WithMany(mc => mc.MenuItems)
-            //    .HasForeignKey(mi => mi.MenuCategoryID)
-            //    .OnDelete(DeleteBehavior.Cascade);
 
-            //modelBuilder.Entity<RestaurantReservation>()
-            //    .HasOne(rr => rr.RestaurantTable)
-            //    .WithMany(rt => rt.Reservations)
-            //    .HasForeignKey(rr => rr.RestaurantTableID)
-            //    .OnDelete(DeleteBehavior.Restrict);
 
-            //modelBuilder.Entity<RestaurantReservation>()
-            //    .HasOne(rr => rr.User)
-            //    .WithMany()
-            //    .HasForeignKey(rr => rr.UserID)
-            //    .OnDelete(DeleteBehavior.Restrict);
+            // Restaurant
+            modelBuilder.Entity<MenuItem>()
+                .HasOne(mi => mi.MenuCategory)
+                .WithMany(mc => mc.MenuItems)
+                .HasForeignKey(mi => mi.MenuCategoryID)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<RestaurantReservation>()
+                .HasOne(rr => rr.RestaurantTable)
+                .WithMany(rt => rt.Reservations)
+                .HasForeignKey(rr => rr.RestaurantTableID)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<RestaurantReservation>()
+                .HasOne(rr => rr.User)
+                .WithMany()
+                .HasForeignKey(rr => rr.UserID)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }
