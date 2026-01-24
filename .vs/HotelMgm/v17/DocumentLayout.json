@@ -1,7 +1,96 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\festa\\source\\repos\\HotelMgm\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\festa\\source\\repos\\HotelMgm\\Migrations\\20260124183515_Services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260124183515_Services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\festa\\source\\repos\\hotelmgm\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\festa\\source\\repos\\hotelmgm\\data\\interface\\iservicereservationstatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\interface\\iservicereservationstatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\festa\\source\\repos\\hotelmgm\\data\\interface\\iservicerecepsionistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\interface\\iservicerecepsionistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\festa\\source\\repos\\hotelmgm\\data\\interface\\ihotelserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\interface\\ihotelserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\festa\\source\\repos\\hotelmgm\\models\\hotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\hotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\festa\\source\\repos\\hotelmgm\\data\\dto\\hotelservicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\hotelservicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\festa\\source\\repos\\hotelmgm\\data\\interface\\ihotelservicereservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\interface\\ihotelservicereservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\festa\\source\\repos\\hotelmgm\\data\\interface\\ihotelservicedetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\interface\\ihotelservicedetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\festa\\source\\repos\\hotelmgm\\data\\interface\\ihotelservicecards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\interface\\ihotelservicecards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\festa\\source\\repos\\hotelmgm\\data\\dto\\servicereservationstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\servicereservationstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\festa\\source\\repos\\hotelmgm\\data\\dto\\servicerecepsionistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\servicerecepsionistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\festa\\source\\repos\\hotelmgm\\data\\dto\\hotelservicereservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\hotelservicereservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\festa\\source\\repos\\hotelmgm\\data\\dto\\hotelservicedetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\hotelservicedetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\festa\\source\\repos\\hotelmgm\\data\\dto\\hotelservicecardsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\dto\\hotelservicecardsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\festa\\source\\repos\\hotelmgm\\models\\servicereservationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\servicereservationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\festa\\source\\repos\\hotelmgm\\models\\servicerecepsionist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\servicerecepsionist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\festa\\source\\repos\\hotelmgm\\models\\hotelservicereservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\hotelservicereservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\festa\\source\\repos\\hotelmgm\\models\\hotelservicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\hotelservicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\festa\\source\\repos\\hotelmgm\\models\\hotelservicecards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\hotelservicecards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\festa\\source\\repos\\hotelmgm\\models\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\festa\\source\\repos\\hotelmgm\\models\\cleaningstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:models\\cleaningstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +98,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 84,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20260124183515_Services.cs",
+              "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Migrations\\20260124183515_Services.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260124183515_Services.cs",
+              "ToolTip": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Migrations\\20260124183515_Services.cs",
+              "RelativeToolTip": "Migrations\\20260124183515_Services.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T18:35:16.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\DataContext.cs",
+              "RelativeToolTip": "Data\\DataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAM0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T18:33:05.943Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
@@ -30,6 +145,266 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IServiceReservationStatusService.cs",
+              "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\Interface\\IServiceReservationStatusService.cs",
+              "RelativeDocumentMoniker": "Data\\Interface\\IServiceReservationStatusService.cs",
+              "ToolTip": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\Interface\\IServiceReservationStatusService.cs",
+              "RelativeToolTip": "Data\\Interface\\IServiceReservationStatusService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T18:28:47.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IServiceRecepsionistService.cs",
+              "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\Interface\\IServiceRecepsionistService.cs",
+              "RelativeDocumentMoniker": "Data\\Interface\\IServiceRecepsionistService.cs",
+              "ToolTip": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\Interface\\IServiceRecepsionistService.cs",
+              "RelativeToolTip": "Data\\Interface\\IServiceRecepsionistService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T18:28:18.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HotelService.cs",
+              "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\HotelService.cs",
+              "RelativeDocumentMoniker": "Models\\HotelService.cs",
+              "ToolTip": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\HotelService.cs",
+              "RelativeToolTip": "Models\\HotelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T18:27:34.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IHotelServiceService.cs",
+              "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\Interface\\IHotelServiceService.cs",
+              "RelativeDocumentMoniker": "Data\\Interface\\IHotelServiceService.cs",
+              "ToolTip": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\Interface\\IHotelServiceService.cs",
+              "RelativeToolTip": "Data\\Interface\\IHotelServiceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T18:23:18.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HotelServiceDTO.cs",
+              "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\DTO\\HotelServiceDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\HotelServiceDTO.cs",
+              "ToolTip": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\DTO\\HotelServiceDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\HotelServiceDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T18:15:13.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IHotelServiceReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\Interface\\IHotelServiceReservationService.cs",
+              "RelativeDocumentMoniker": "Data\\Interface\\IHotelServiceReservationService.cs",
+              "ToolTip": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\Interface\\IHotelServiceReservationService.cs",
+              "RelativeToolTip": "Data\\Interface\\IHotelServiceReservationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T18:22:46.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IHotelServiceDetailService.cs",
+              "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\Interface\\IHotelServiceDetailService.cs",
+              "RelativeDocumentMoniker": "Data\\Interface\\IHotelServiceDetailService.cs",
+              "ToolTip": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\Interface\\IHotelServiceDetailService.cs",
+              "RelativeToolTip": "Data\\Interface\\IHotelServiceDetailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T18:22:17.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IHotelServiceCards.cs",
+              "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\Interface\\IHotelServiceCards.cs",
+              "RelativeDocumentMoniker": "Data\\Interface\\IHotelServiceCards.cs",
+              "ToolTip": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\Interface\\IHotelServiceCards.cs",
+              "RelativeToolTip": "Data\\Interface\\IHotelServiceCards.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T18:21:41.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ServiceReservationStatusDTO.cs",
+              "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\DTO\\ServiceReservationStatusDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\ServiceReservationStatusDTO.cs",
+              "ToolTip": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\DTO\\ServiceReservationStatusDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\ServiceReservationStatusDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T18:19:17.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ServiceRecepsionistDTO.cs",
+              "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\DTO\\ServiceRecepsionistDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\ServiceRecepsionistDTO.cs",
+              "ToolTip": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\DTO\\ServiceRecepsionistDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\ServiceRecepsionistDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T18:18:44.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HotelServiceReservationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\DTO\\HotelServiceReservationDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\HotelServiceReservationDTO.cs",
+              "ToolTip": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\DTO\\HotelServiceReservationDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\HotelServiceReservationDTO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwB0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T18:17:01.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HotelServiceDetailDTO.cs",
+              "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\DTO\\HotelServiceDetailDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\HotelServiceDetailDTO.cs",
+              "ToolTip": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\DTO\\HotelServiceDetailDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\HotelServiceDetailDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T18:14:32.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HotelServiceCardsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\DTO\\HotelServiceCardsDTO.cs",
+              "RelativeDocumentMoniker": "Data\\DTO\\HotelServiceCardsDTO.cs",
+              "ToolTip": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\DTO\\HotelServiceCardsDTO.cs",
+              "RelativeToolTip": "Data\\DTO\\HotelServiceCardsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T18:13:49.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ServiceReservationStatus.cs",
+              "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\ServiceReservationStatus.cs",
+              "RelativeDocumentMoniker": "Models\\ServiceReservationStatus.cs",
+              "ToolTip": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\ServiceReservationStatus.cs",
+              "RelativeToolTip": "Models\\ServiceReservationStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T17:54:01.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ServiceRecepsionist.cs",
+              "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\ServiceRecepsionist.cs",
+              "RelativeDocumentMoniker": "Models\\ServiceRecepsionist.cs",
+              "ToolTip": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\ServiceRecepsionist.cs",
+              "RelativeToolTip": "Models\\ServiceRecepsionist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T17:53:20.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HotelServiceReservation.cs",
+              "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\HotelServiceReservation.cs",
+              "RelativeDocumentMoniker": "Models\\HotelServiceReservation.cs",
+              "ToolTip": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\HotelServiceReservation.cs",
+              "RelativeToolTip": "Models\\HotelServiceReservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T17:51:57.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HotelServiceDetail.cs",
+              "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\HotelServiceDetail.cs",
+              "RelativeDocumentMoniker": "Models\\HotelServiceDetail.cs",
+              "ToolTip": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\HotelServiceDetail.cs",
+              "RelativeToolTip": "Models\\HotelServiceDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T17:50:58.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HotelServiceCards.cs",
+              "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\HotelServiceCards.cs",
+              "RelativeDocumentMoniker": "Models\\HotelServiceCards.cs",
+              "ToolTip": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\HotelServiceCards.cs",
+              "RelativeToolTip": "Models\\HotelServiceCards.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T17:50:09.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\Manager.cs",
+              "RelativeDocumentMoniker": "Models\\Manager.cs",
+              "ToolTip": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\Manager.cs",
+              "RelativeToolTip": "Models\\Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T17:48:04.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CleaningStaff.cs",
+              "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\CleaningStaff.cs",
+              "RelativeDocumentMoniker": "Models\\CleaningStaff.cs",
+              "ToolTip": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\CleaningStaff.cs",
+              "RelativeToolTip": "Models\\CleaningStaff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T17:48:02.761Z",
+              "EditorCaption": ""
             }
           ]
         }
