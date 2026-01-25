@@ -34,7 +34,7 @@ export default function UserInfo() {
   useEffect(() => {
     async function fetchUser() {
       try {
-        const meRes = await axios.get("https://localhost:7117/api/Auth/me", {
+        const meRes = await axios.get("https://localhost:7277/api/Auth/me", {
           withCredentials: true,
         });
 
@@ -42,7 +42,7 @@ export default function UserInfo() {
         if (!userId) throw new Error("User ID not found");
 
         const userRes = await axios.get(
-          `https://localhost:7117/api/User?id=${userId}`,
+          `https://localhost:7277/api/User?id=${userId}`,
           { withCredentials: true }
         );
 
@@ -95,7 +95,7 @@ export default function UserInfo() {
     setFormLoading(true);
     try {
       await axios.put(
-        `https://localhost:7117/api/User/updateUser?id=${user.userID}`,
+        `https://localhost:7277/api/User/updateUser?id=${user.userID}`,
         profileData,
         { withCredentials: true }
       );
@@ -129,7 +129,7 @@ export default function UserInfo() {
     setFormLoading(true);
     try {
       await axios.post(
-        `https://localhost:7117/api/Auth/changePassword?UserID=${user.userID}`,
+        `https://localhost:7277/api/Auth/changePassword?UserID=${user.userID}`,
         { oldPassword, newPassword },
         { withCredentials: true }
       );

@@ -23,7 +23,7 @@ export default function UserRoomReservations() {
   async function fetchReservations() {
     setLoading(true);
     try {
-      const res = await axios.get("https://localhost:7117/api/RoomReservation/GetUserReservations", { withCredentials: true });
+      const res = await axios.get("https://localhost:7277/api/RoomReservation/GetUserReservations", { withCredentials: true });
       setReservations(res.data);
     } catch {
       toast.error("Failed to load reservations.");
@@ -95,7 +95,7 @@ export default function UserRoomReservations() {
     }
 
     try {
-      await axios.put(`https://localhost:7117/api/RoomReservation/UpdateReservation/${editingReservation.reservationID}`, {
+      await axios.put(`https://localhost:7277/api/RoomReservation/UpdateReservation/${editingReservation.reservationID}`, {
         CheckInDate: toISOStringWithTime(formData.checkInDate),
         CheckOutDate: toISOStringWithTime(formData.checkOutDate),
         SpecialRequests: formData.specialRequests,
@@ -132,7 +132,7 @@ export default function UserRoomReservations() {
     if (!result.isConfirmed) return;
 
     try {
-      await axios.delete(`https://localhost:7117/api/RoomReservation/CancelReservationUser`, { params: { id }, withCredentials: true });
+      await axios.delete(`https://localhost:7277/api/RoomReservation/CancelReservationUser`, { params: { id }, withCredentials: true });
       Swal.fire({ icon: 'success', title: 'Cancelled!', text: 'Reservation cancelled successfully.', timer: 2500, showConfirmButton: false });
       await fetchReservations();
     } catch {
