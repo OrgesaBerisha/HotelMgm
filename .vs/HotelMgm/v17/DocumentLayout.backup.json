@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\festa\\source\\repos\\HotelMgm\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\festa\\source\\repos\\HotelMgm\\Migrations\\20260124183515_Services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260124183515_Services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|c:\\users\\festa\\source\\repos\\hotelmgm\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD1E7658-AC3E-4D6F-B1B3-98A03B6D39B9}|HotelMgm.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -99,6 +103,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20260124183515_Services.cs",
+              "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Migrations\\20260124183515_Services.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260124183515_Services.cs",
+              "ToolTip": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Migrations\\20260124183515_Services.cs",
+              "RelativeToolTip": "Migrations\\20260124183515_Services.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T18:35:16.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "Data\\DataContext.cs",
@@ -131,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IServiceReservationStatusService.cs",
               "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\Interface\\IServiceReservationStatusService.cs",
               "RelativeDocumentMoniker": "Data\\Interface\\IServiceReservationStatusService.cs",
@@ -144,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IServiceRecepsionistService.cs",
               "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\Interface\\IServiceRecepsionistService.cs",
               "RelativeDocumentMoniker": "Data\\Interface\\IServiceRecepsionistService.cs",
@@ -157,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "HotelService.cs",
               "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\HotelService.cs",
               "RelativeDocumentMoniker": "Models\\HotelService.cs",
@@ -170,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IHotelServiceService.cs",
               "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\Interface\\IHotelServiceService.cs",
               "RelativeDocumentMoniker": "Data\\Interface\\IHotelServiceService.cs",
@@ -183,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "HotelServiceDTO.cs",
               "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\DTO\\HotelServiceDTO.cs",
               "RelativeDocumentMoniker": "Data\\DTO\\HotelServiceDTO.cs",
@@ -196,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IHotelServiceReservationService.cs",
               "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\Interface\\IHotelServiceReservationService.cs",
               "RelativeDocumentMoniker": "Data\\Interface\\IHotelServiceReservationService.cs",
@@ -209,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IHotelServiceDetailService.cs",
               "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\Interface\\IHotelServiceDetailService.cs",
               "RelativeDocumentMoniker": "Data\\Interface\\IHotelServiceDetailService.cs",
@@ -222,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IHotelServiceCards.cs",
               "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\Interface\\IHotelServiceCards.cs",
               "RelativeDocumentMoniker": "Data\\Interface\\IHotelServiceCards.cs",
@@ -235,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ServiceReservationStatusDTO.cs",
               "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\DTO\\ServiceReservationStatusDTO.cs",
               "RelativeDocumentMoniker": "Data\\DTO\\ServiceReservationStatusDTO.cs",
@@ -248,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ServiceRecepsionistDTO.cs",
               "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\DTO\\ServiceRecepsionistDTO.cs",
               "RelativeDocumentMoniker": "Data\\DTO\\ServiceRecepsionistDTO.cs",
@@ -261,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "HotelServiceReservationDTO.cs",
               "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\DTO\\HotelServiceReservationDTO.cs",
               "RelativeDocumentMoniker": "Data\\DTO\\HotelServiceReservationDTO.cs",
@@ -274,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "HotelServiceDetailDTO.cs",
               "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\DTO\\HotelServiceDetailDTO.cs",
               "RelativeDocumentMoniker": "Data\\DTO\\HotelServiceDetailDTO.cs",
@@ -287,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "HotelServiceCardsDTO.cs",
               "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Data\\DTO\\HotelServiceCardsDTO.cs",
               "RelativeDocumentMoniker": "Data\\DTO\\HotelServiceCardsDTO.cs",
@@ -300,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ServiceReservationStatus.cs",
               "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\ServiceReservationStatus.cs",
               "RelativeDocumentMoniker": "Models\\ServiceReservationStatus.cs",
@@ -313,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ServiceRecepsionist.cs",
               "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\ServiceRecepsionist.cs",
               "RelativeDocumentMoniker": "Models\\ServiceRecepsionist.cs",
@@ -326,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "HotelServiceReservation.cs",
               "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\HotelServiceReservation.cs",
               "RelativeDocumentMoniker": "Models\\HotelServiceReservation.cs",
@@ -339,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "HotelServiceDetail.cs",
               "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\HotelServiceDetail.cs",
               "RelativeDocumentMoniker": "Models\\HotelServiceDetail.cs",
@@ -352,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "HotelServiceCards.cs",
               "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\HotelServiceCards.cs",
               "RelativeDocumentMoniker": "Models\\HotelServiceCards.cs",
@@ -365,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Manager.cs",
               "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\Manager.cs",
               "RelativeDocumentMoniker": "Models\\Manager.cs",
@@ -378,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "CleaningStaff.cs",
               "DocumentMoniker": "C:\\Users\\festa\\source\\repos\\HotelMgm\\Models\\CleaningStaff.cs",
               "RelativeDocumentMoniker": "Models\\CleaningStaff.cs",
