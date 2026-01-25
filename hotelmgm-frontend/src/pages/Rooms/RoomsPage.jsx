@@ -15,7 +15,7 @@ function RoomsPage() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const backendBaseUrl = "https://localhost:7117/";
+    const backendBaseUrl = "https://localhost:7277/";
 
     axios
       .get(`${backendBaseUrl}api/RoomType/GetAllRoomTypes`, {
