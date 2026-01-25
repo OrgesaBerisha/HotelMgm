@@ -12,7 +12,7 @@ import Footer from './Components/Footer';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import AboutUs from './pages/AboutUs';
-import AssignmentsDashboard from './pages/dashboards/cleaningdashboards/AssignmentsDashboard';
+import AssignmentsDashboard from './pages/dashboards/cleaningdashboards/AssigmentsDashboard';
 import ReviewDashboard from './pages/dashboards/roomdashboards/managerdashboards/ReviewDashboard';
 import RestaurantHomePage from './pages/restaurant/RestaurantHomePage';
 import RestaurantMenuPage from './pages/restaurant/RestaurantMenuPage';
@@ -20,33 +20,33 @@ import HomePage from './pages/HomePage';
 import CleaningReviewDashboard from './pages/dashboards/cleaningdashboards/CleaningReviewDashboard';
 import RestaurantReviewDashboard from './pages/dashboards/restaurantdashboards/managerdashboards/RestaurantReviewDashboard';
 import AdminCleaningStaffDashboard from './pages/dashboards/admindashboard/AdminCleaningStaffDashboard';
-import AddServices from './pages/dashboards/admindashboard/ServiceAdmin/AddServices.jsx';
-import ServiceReservations from './pages/dashboards/admindashboard/ServiceAdmin/ServiceReservations.jsx';
+import AddServices from './pages/dashboards/admindashboard/ServiceAdmin/AddService.jsx';
+import ServiceReservations from './pages/dashboards/admindashboard/ServiceAdmin/ServiceReservation.jsx';
 import ServiceMain from './pages/Services/ServiceMain';
 import PoolSpaPage from './pages/Services/PoolSpaPage';
 import EventsPage from './pages/Services/EventsPage';
 import ServiceReservation from './pages/dashboards/servicesdashboard/managerdashboard/servicereservation';
-import ServiceAddRecepcionist from './pages/dashboards/servicesdashboard/managerdashboard/serviceaddrecepcionist';
-import Reservations from './pages/dashboards/servicesdashboard/servicerecepcionist/reservations.jsx';
+import ServiceAddRecepcionist from './pages/dashboards/servicesdashboard/managerdashboard/serviceaddrecepsionist';
+import Reservations from './pages/dashboards/servicesdashboard/servicerecepcionist/reservation.jsx';
 
 
-const UserRoomReservations = lazy(() => import(  './pages/dashboards/userdashboard/UserRoomReservations'));
+const UserRoomReservations = lazy(() => import(  './pages/dashboards/userdashboard/UserRoomReservation'));
 const UserInfo = lazy(() => import( './pages/dashboards/userdashboard/UserInfo'));
 const AdminRoomReservationStatus = lazy(() => import( './pages/dashboards/admindashboard/AdminReservationStatus'));
 const AdminRoomStatus = lazy(() => import('./pages/dashboards/admindashboard/AdminRoomStatus'));
 const AdminAddManager = lazy(() => import( './pages/dashboards/admindashboard/AdminAddManager'));
 const AdminRoomTypeDashboard = lazy(() => import( './pages/dashboards/admindashboard/RoomAdmin/AdminRoomType'));
-const RecepsionistReservationDashboard = lazy(() => import(  './pages/dashboards/roomdashboards/recpsionistdashboards/RecepsionistReservationDashboard'));
+const RecepsionistReservationDashboard = lazy(() => import(  './pages/dashboards/roomdashboards/recepsionistdashboards/RecepsionistReservationDashboard'));
 const ReservationPage = lazy(() => import( './pages/Rooms/ReservationPage'));
 const RoomsDetails = lazy(() => import( './pages/Rooms/RoomsDetails'));
 const RoomsPage = lazy(() => import( './pages/Rooms/RoomsPage'));
 const RoomRecepsionistManagement = lazy(() => import('./pages/dashboards/roomdashboards/managerdashboards/RoomRecepsionistManagement'));
-const RoomReceptionistDashboard  = lazy(() => import('./pages/dashboards/roomdashboards/recpsionistdashboards/RoomRecepsionistDashboard'));
+const RoomReceptionistDashboard  = lazy(() => import('./pages/dashboards/roomdashboards/recepsionistdashboards/RoomRecepsionistDashboard'));
 const ReservationDashboard  = lazy(() => import('./pages/dashboards/roomdashboards/managerdashboards/ReservationDashboard'));
 const RoomManagerDashboard = lazy(() => import('./pages/dashboards/roomdashboards/managerdashboards/RoomManagerDashboard'));
 const CleaningManagerDashboard = lazy(() => import('./pages/dashboards/cleaningdashboards/CleaningManagerDashboard'));
 const CleaningStaffDashboard = lazy(() => import('./pages/dashboards/cleaningdashboards/CleaningStaffDashboard'));
-const HostAssignmentDashboard = lazy(() => import('./pages/dashboards/restaurantdashboards/managerdashboards/HostAssignmentDashboard'));
+const HostAssignmentDashboard = lazy(() => import('./pages/dashboards/restaurantdashboards/managerdashboards/HostAssigmentDashboard'));
 const MenuDashboard = lazy(() => import('./pages/dashboards/restaurantdashboards/managerdashboards/MenuDashboard'));
 const TableDashboard = lazy(() => import('./pages/dashboards/restaurantdashboards/managerdashboards/TableDashboard'));
 const ReservationOverviewDashboard = lazy(() => import('./pages/dashboards/restaurantdashboards/managerdashboards/ReservationOverviewDashboard'));
@@ -56,7 +56,7 @@ const MenuSection = lazy(() => import('./pages/dashboards/admindashboard/Restaur
 const TableSection = lazy(() => import('./pages/dashboards/admindashboard/RestaurantAdmin/TableSection'));
 const ReservationSection = lazy(() => import('./pages/dashboards/admindashboard/RestaurantAdmin/ReservationSection'));
 const ServiceManagerDashboard = lazy(() => import('./pages/dashboards/servicesdashboard/managerdashboard/servicemanager'));
-const ServiceReceptionistDashboard = lazy(() => import('./pages/dashboards/servicesdashboard/servicerecepcionist/ServiceReceptionistDashboard.jsx'));
+const ServiceReceptionistDashboard = lazy(() => import('./pages/dashboards/servicesdashboard/servicerecepcionist/ServiceRecepcionistDashboard.jsx'));
 
 
 
@@ -66,7 +66,7 @@ const ProtectedRoute = ({ children, allowedRoles }) => {
   React.useEffect(() => {
     const checkAuth = async () => {
       try {
-        const res = await axios.get('https://localhost:7117/api/Auth/me', {
+        const res = await axios.get('https://localhost:7277/api/Auth/me', {
           withCredentials: true,
         });
         const role = res.data.role;

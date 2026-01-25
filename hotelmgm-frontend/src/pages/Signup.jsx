@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import { useAuth } from '../Context/AuthContext';
 
+
 const SignupPage = () => {
   const [user, setUser] = useState({
     FirstName: '',

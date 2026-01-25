@@ -724,3 +724,4 @@ C:\Users\H\source\repos\HotelMgm\bin\Debug\net8.0\hotelmgm-frontend\package-lock
 C:\Users\H\source\repos\HotelMgm\bin\Debug\net8.0\hotelmgm-frontend\package.json
 C:\Users\H\source\repos\HotelMgm\bin\Debug\net8.0\hotelmgm-frontend\public\manifest.json
 C:\Users\H\source\repos\HotelMgm\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\H\source\repos\HotelMgm\bin\Debug\net8.0\HotelMgm.staticwebassets.runtime.json

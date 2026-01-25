@@ -15,7 +15,6 @@ using System.Security.Claims;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
 builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 
 var jwtSecret = builder.Configuration["Jwt:Key"];
@@ -58,7 +57,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", builder =>
-        builder.WithOrigins("https://localhost:3000")
+        builder.WithOrigins("http://localhost:3000", "http://localhost:3001")
                .AllowAnyHeader()
                .AllowAnyMethod()
                .AllowCredentials());
@@ -71,7 +70,6 @@ builder.Services.AddDbContext<DataContext>(options =>
 builder.Services.AddControllers()
     .AddJsonOptions(x =>
         x.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles);
-
 
 
 builder.Services.AddScoped<IAuthService, AuthService>();
@@ -99,46 +97,72 @@ builder.Services.AddScoped<IRoomRecepsionistService, RoomRecepsionistService>();
 builder.Services.AddScoped<IManagerService, ManagerService>();
 builder.Services.AddHostedService<RefreshTokenCleanupService>();
 builder.Services.AddTransient<Seed>();
-// Add services to the container.
 
-builder.Services.AddControllers();
-builder.Services.AddTransient<Seed>();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<DataContext>(options =>
+
+builder.Services.AddSwaggerGen(c =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+    c.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+    {
+        Description = "JWT Authorization header using the Bearer scheme. Example: \"Bearer {token}\"",
+        Name = "Authorization",
+        In = Microsoft.OpenApi.Models.ParameterLocation.Header,
+        Type = Microsoft.OpenApi.Models.SecuritySchemeType.ApiKey
+    });
+    c.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
+    {
+        {
+            new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+            {
+                Reference = new Microsoft.OpenApi.Models.OpenApiReference
+                {
+                    Type = Microsoft.OpenApi.Models.ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            Array.Empty<string>()
+        }
+    });
 });
 
 var app = builder.Build();
 
 if (args.Length == 1 && args[0].ToLower() == "seeddata")
     SeedData(app);
+
 void SeedData(IHost app)
 {
-    var scopedFactory = app.Services.GetService<IServiceScopeFactory>();
-    
-    using (var scope = scopedFactory.CreateScope())
-    {
-        var service = scope.ServiceProvider.GetService<Seed>();
-        service.SeedDataContext();
-    }
+    using var scope = app.Services.GetRequiredService<IServiceScopeFactory>().CreateScope();
+    var service = scope.ServiceProvider.GetRequiredService<Seed>();
+    service.SeedDataContext();
 }
 
-// Configure the HTTP request pipeline.
+app.UseHttpsRedirection();
+app.UseCors("AllowFrontend");
+
+app.Use(async (context, next) =>
+{
+    var token = context.Request.Cookies["jwt"];
+    if (!string.IsNullOrEmpty(token) && !context.Request.Headers.ContainsKey("Authorization"))
+    {
+        context.Request.Headers.Append("Authorization", $"Bearer {token}");
+    }
+    await next();
+});
+
+
+app.UseAuthentication();
+app.UseAuthorization();
+
+app.UseStaticFiles();
+
+
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
-
-app.UseAuthentication(); // MUST be before UseAuthorization
-
-app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
